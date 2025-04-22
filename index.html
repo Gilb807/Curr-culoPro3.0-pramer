@@ -1,93 +1,109 @@
-<!DOCTYPE html><html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Currículo Pro - Seu sucesso começa aqui</title>
+    <title>Currículo Pro - Seu Sucesso Começa Aqui</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f4f4;
+            background-color: #f8f9fa;
             color: #333;
         }
-        header {
-            background: #000;
-            text-align: center;
-            padding: 20px 0;
-        }
-        header img {
+        .header img {
             width: 100%;
-            max-width: 1200px;
             height: auto;
         }
-        section {
+        .section {
             padding: 20px;
-            max-width: 1000px;
-            margin: auto;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            margin-top: 20px;
-        }
-        h1, h2 {
-            color: #222;
-        }
-        .promo {
-            background: #ffeb3b;
-            padding: 10px;
-            border-radius: 8px;
             text-align: center;
-            margin: 15px 0;
-            font-weight: bold;
         }
-        .button {
-            display: inline-block;
-            background: #25D366;
-            color: white;
-            padding: 12px 25px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 16px;
-            margin: 20px 0;
+        .highlight {
+            background: #fffacd;
+            color: #333;
+            font-weight: bold;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 500px;
         }
         .depoimentos {
+            margin-top: 30px;
+        }
+        .depoimento {
             background: #e0e0e0;
-            padding: 10px;
+            margin: 10px auto;
+            padding: 15px;
             border-radius: 8px;
-            margin: 15px 0;
+            max-width: 600px;
+        }
+        .impact {
+            margin: 30px 0;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #222;
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1em;
+            display: inline-block;
+            margin: 20px auto;
+            transition: background 0.3s ease;
+        }
+        .whatsapp-button:hover {
+            background-color: #1ebe57;
         }
         footer {
+            background-color: #222;
+            color: white;
             text-align: center;
-            padding: 10px;
-            font-size: 14px;
-            color: #777;
+            padding: 15px 10px;
+            font-size: 0.9em;
         }
     </style>
 </head>
-<body><header>
-    <img src="capa.png" alt="Currículo Pro - Seu sucesso começa aqui">
-</header><section>
-    <h1>Currículo Pro</h1>
-    <p>Transforme suas oportunidades com um currículo profissional, bem estruturado e que chama a atenção dos recrutadores. Não deixe seu sucesso nas mãos do acaso!</p><div class="promo">
-    Currículo Atualizado de <s>R$50</s> por <strong>R$20</strong>!<br>
-    Currículo + Carta de Apresentação de <s>R$75</s> por <strong>R$45</strong>!
-</div>
+<body>
 
-<h2>Depoimentos de Clientes</h2>
-<div class="depoimentos">
-    "Consegui minha entrevista em menos de uma semana com o currículo que fizeram pra mim! Recomendo demais!" — Ana P.
-</div>
-<div class="depoimentos">
-    "Rápido, profissional e atencioso. Meu currículo ficou impecável!" — Marcos L.
-</div>
+    <div class="header">
+        <img src="capa.png" alt="Currículo Pro - Seu sucesso começa aqui">
+    </div>
 
-<h2>Frase de Impacto</h2>
-<p>Não entregue qualquer currículo, entregue o seu melhor!</p>
+    <div class="section">
+        <h1>Currículo Pro</h1>
+        <p>Transforme suas oportunidades com um currículo profissional, bem estruturado e que chama a atenção dos recrutadores. Não deixe seu sucesso nas mãos do acaso!</p>
 
-<a class="button" href="https://wa.me/5527996163425" target="_blank">Solicite pelo WhatsApp</a>
+        <div class="highlight">
+            Currículo Atualizado de <del>R$50</del> por R$20!<br>
+            Currículo + Carta de Apresentação de <del>R$75</del> por R$45!
+        </div>
 
-</section><footer>
-    © 2025 Currículo Pro - Todos os direitos reservados.
-</footer></body>
+        <h2>Depoimentos de Clientes</h2>
+        <div class="depoimentos">
+            <div class="depoimento">
+                "Consegui minha entrevista em menos de uma semana com o currículo que fizeram pra mim! Recomendo demais!" — Ana P.
+            </div>
+            <div class="depoimento">
+                "Rápido, profissional e atencioso. Meu currículo ficou impecável!" — Marcos L.
+            </div>
+        </div>
+
+        <div class="impact">
+            Não entregue qualquer currículo, entregue o seu melhor!
+        </div>
+
+        <a class="whatsapp-button" href="https://wa.me/5527996163425" target="_blank">
+            Solicite pelo WhatsApp
+        </a>
+    </div>
+
+    <footer>
+        © 2025 Currículo Pro - Todos os direitos reservados.
+    </footer>
+
+</body>
 </html>
