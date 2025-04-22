@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="pt-br">
-    <img src="arquivo_00000000c2cc61f894b3be0b455a4e4b.png" alt="Capa Currículo Pro" style="width:100%; height:auto;">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,94 +7,88 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
             color: #333;
         }
-        header {
-            background: url('https://via.placeholder.com/1200x400.png?text=Profissional+de+Terno') center/cover no-repeat;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .header {
+            background: #00264d;
             color: white;
-            text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-            flex-direction: column;
+            text-align: center;
+            padding: 40px 20px;
         }
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.2em;
-            margin: 10px 0 0;
-        }
-        section {
-            max-width: 800px;
-            margin: 30px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        .promo, .testimonials, .impact {
+        .header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
             margin-bottom: 20px;
         }
-        .promo h2, .testimonials h2, .impact h2 {
-            color: #007bff;
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
         }
-        .promo p {
-            font-size: 1.1em;
-            line-height: 1.6;
+        .section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
         }
-        .testimonials blockquote {
-            font-style: italic;
-            color: #555;
-            border-left: 4px solid #007bff;
-            padding-left: 10px;
-            margin: 10px 0;
+        .section h2 {
+            color: #00264d;
         }
-        .impact p {
-            font-size: 1.3em;
-            font-weight: bold;
-            text-align: center;
-        }
-        .whatsapp-btn {
-            display: block;
-            width: 250px;
-            margin: 20px auto;
-            background-color: #25D366;
+        .cta-button {
+            display: inline-block;
+            background: #25d366;
             color: white;
-            text-align: center;
-            padding: 15px;
-            border-radius: 8px;
             text-decoration: none;
-            font-size: 1.2em;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: background 0.3s ease;
         }
-        .whatsapp-btn:hover {
-            background-color: #1ebe5d;
+        .cta-button:hover {
+            background: #128c7e;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #00264d;
+            color: white;
+            margin-top: 40px;
         }
     </style>
 </head>
-<body><header>
+<body>
+
+<div class="header">
+    <img src="arquivo_00000000c2cc61f894b3be0b455a4e4b.png" alt="Capa Currículo Pro">
     <h1>Currículo Pro 2.0</h1>
-    <p>Transformando perfis em oportunidades!</p>
-</header><section class="promo">
-    <h2>A importância de um currículo profissional</h2>
-    <p>Seu currículo é seu primeiro contato com o mercado. Um currículo bem estruturado abre portas, transmite credibilidade e valoriza sua trajetória profissional. Não perca chances por um documento mal apresentado!</p>
-</section><section class="testimonials">
-    <h2>Depoimentos de clientes satisfeitos</h2>
-    <blockquote>"Meu currículo ficou incrível! Consegui uma entrevista na mesma semana." — Juliana S.</blockquote>
-    <blockquote>"Valeu cada centavo! O atendimento é rápido e super atencioso." — Carlos R.</blockquote>
-</section><section class="promo">
-    <h2>Promoções especiais</h2>
-    <p><strong>Currículo Profissional Atualizado:</strong> de R$50 por apenas <strong>R$20</strong></p>
-    <p><strong>Currículo + Carta de Apresentação:</strong> de R$75 por apenas <strong>R$45</strong></p>
-</section><section class="impact">
-    <h2>Frase de impacto</h2>
-    <p>"Oportunidades não batem à porta de quem não se apresenta bem. Valorize-se!"</p>
-</section><a class="whatsapp-btn" href="https://wa.me/5527996163425" target="_blank">Fale via WhatsApp</a>
+    <p>Seu primeiro passo para conquistar a vaga dos sonhos!</p>
+</div>
+
+<div class="section">
+    <h2>Por que um Currículo Profissional?</h2>
+    <p>Seu currículo é sua primeira impressão. Com o Currículo Pro, você garante um material impactante e bem estruturado, feito para atrair a atenção de recrutadores e aumentar suas chances de ser chamado!</p>
+
+    <h2>Depoimentos de Clientes</h2>
+    <p>"Consegui marcar entrevistas na primeira semana!" — João, Vitória-ES</p>
+    <p>"Me ajudou a destacar minhas habilidades de forma clara e elegante." — Larissa, Vila Velha-ES</p>
+
+    <h2>Promoção Especial</h2>
+    <ul>
+        <li><strong>Currículo Atualizado:</strong> de R$50 por R$20</li>
+        <li><strong>Currículo + Carta de Apresentação:</strong> de R$75 por R$45</li>
+    </ul>
+
+    <a class="cta-button" href="https://wa.me/5527996163425" target="_blank">Fale conosco pelo WhatsApp!</a>
+</div>
+
+<footer>
+    &copy; 2025 Currículo Pro. Todos os direitos reservados.
+</footer>
 
 </body>
 </html>
