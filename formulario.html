@@ -1,38 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Currículo Pro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1976D2;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #1976D2;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #135ba1;
+        }
+
+        .voltar {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .voltar a {
+            text-decoration: none;
+            color: #1976D2;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Formulário de Currículo</h1>
+
 <form action="https://formspree.io/f/xeogkgpj" method="POST">
-  <h2>Formulário de Digitação de Currículo Profissional</h2>
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" name="nome" required>
 
-  <label>Nome completo:</label>
-  <input type="text" name="nome" required>
+    <label for="email">E-mail para contato:</label>
+    <input type="email" id="email" name="email" required>
 
-  <label>E-mail:</label>
-  <input type="email" name="email" required>
+    <label for="telefone">Telefone com DDD:</label>
+    <input type="tel" id="telefone" name="telefone" required>
 
-  <label>Telefone:</label>
-  <input type="tel" name="telefone">
+    <label for="experiencia">Experiências profissionais:</label>
+    <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
 
-  <label>Endereço:</label>
-  <input type="text" name="endereco">
+    <label for="formacao">Formação acadêmica:</label>
+    <textarea id="formacao" name="formacao" rows="3" required></textarea>
 
-  <label>Cargo pretendido:</label>
-  <input type="text" name="cargo">
+    <label for="objetivo">Objetivo profissional:</label>
+    <textarea id="objetivo" name="objetivo" rows="2" required></textarea>
 
-  <label>Resumo profissional:</label>
-  <textarea name="resumo"></textarea>
-
-  <label>Experiências anteriores:</label>
-  <textarea name="experiencias"></textarea>
-
-  <label>Formação acadêmica:</label>
-  <textarea name="formacao"></textarea>
-
-  <label>Cursos complementares:</label>
-  <textarea name="cursos"></textarea>
-
-  <label>Habilidades:</label>
-  <textarea name="habilidades"></textarea>
-
-  <label>Links (LinkedIn, portfólio, etc.):</label>
-  <input type="url" name="links">
-
-  <button type="submit">Enviar Currículo</button>
+    <button type="submit">Enviar Currículo</button>
 </form>
+
+<div class="voltar">
+    <a href="index.html">← Voltar para a página inicial</a>
+</div>
+
+</body>
+</html>
